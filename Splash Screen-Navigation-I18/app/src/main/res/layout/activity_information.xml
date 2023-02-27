@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Information"
+    android:background="#ffff"
+    android:padding="20dp"
+    >
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:padding="-20dp"
+        android:paddingTop="-20dp"
+        android:src="@drawable/acceuil" />
+
+    <TextView
+        android:id="@+id/user_info"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/user_information"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/antic"
+            android:text="@string/username_info"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/user_name_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/antic"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="25dp">
+
+        <TextView
+            android:id="@+id/user_paswd"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/antic"
+            android:text="@string/password_info"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+           />
+
+        <TextView
+            android:id="@+id/user_paswd_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/antic"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#EB100E"
+        android:text="@string/home"
+        android:onClick="home"
+        android:layout_margin="25dp"
+        />
+
+
+</LinearLayout>

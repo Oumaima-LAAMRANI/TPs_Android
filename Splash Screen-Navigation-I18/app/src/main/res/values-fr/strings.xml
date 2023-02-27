@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ifood</string>
+    <string name="welcome_back">Bienvenue</string>
+    <string name="sign_in">Connectez-vous pour continuer</string>
+    <string name="username">nom de l\'utilisateur</string>
+    <string name="password">mot de passe</string>
+    <string name="forget_password">mot de passe oublié ?</string>
+    <string name="sign_up">Créer un compte</string>
+    <string name="go">Se connecter</string>
+    <string name="our_passion">Notre passion</string>
+    <string name="your_satisfaction">Votre satisfaction</string>
+    <string name="user_information">les informations de l\'utilisateur </string>
+    <string name="username_info">Nom de l\'utilisateur :</string>
+    <string name="password_info">Mot de passe :</string>
+    <string name="home">Accueil</string>
+</resources>

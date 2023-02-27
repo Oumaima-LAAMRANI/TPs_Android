@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ifood</string>
+    <string name="welcome_back">مرحبا </string>
+    <string name="sign_in">سجل دخولك للمواصلة </string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password"> كلمة السر</string>
+    <string name="forget_password">هل نسيت كلمة السر؟ </string>
+    <string name="sign_up">إنشاء حساب جديد</string>
+    <string name="go">تسجيل الدخول</string>
+    <string name="our_passion">شغفنا</string>
+    <string name="your_satisfaction">إرضاؤكم</string>
+    <string name="user_information">معلومات المستخدم</string>
+    <string name="username_info">اسم المستخدم :</string>
+    <string name="password_info">كلمة السر :</string>
+    <string name="home">الصفحة رئيسية</string>
+</resources>

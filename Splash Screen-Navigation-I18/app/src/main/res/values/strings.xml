@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ifood</string>
+    <string name="welcome_back">Hello there, Welcome back</string>
+    <string name="sign_in">Sign In to continue</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="sign_up">Don\'t have account? Sign up!</string>
+    <string name="go">GO</string>
+    <string name="our_passion">Our passion</string>
+    <string name="your_satisfaction">your satisfaction</string>
+    <string name="user_information">User\'s information</string>
+    <string name="username_info">Username :</string>
+    <string name="password_info">Password :</string>
+    <string name="home">Home</string>
+</resources>
